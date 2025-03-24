@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: rabbit-server
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/rabbit
+        username: root
+        password: abc22456
+server:
+    port: 8421
